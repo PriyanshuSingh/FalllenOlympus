@@ -1,0 +1,83 @@
+
+fallenOlympus.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+idle
+  rotate: false
+  xy: 812, 2
+  size: 66, 154
+  orig: 66, 154
+  offset: 0, 0
+  index: 1
+idle
+  rotate: false
+  xy: 880, 2
+  size: 66, 154
+  orig: 66, 154
+  offset: 0, 0
+  index: 2
+melee
+  rotate: false
+  xy: 2, 2
+  size: 103, 154
+  orig: 103, 154
+  offset: 0, 0
+  index: 1
+melee
+  rotate: false
+  xy: 107, 2
+  size: 103, 154
+  orig: 103, 154
+  offset: 0, 0
+  index: 2
+premelee
+  rotate: false
+  xy: 596, 2
+  size: 70, 154
+  orig: 70, 154
+  offset: 0, 0
+  index: 1
+premelee
+  rotate: false
+  xy: 668, 2
+  size: 70, 154
+  orig: 70, 154
+  offset: 0, 0
+  index: 2
+premelee
+  rotate: false
+  xy: 740, 2
+  size: 70, 154
+  orig: 70, 154
+  offset: 0, 0
+  index: 3
+running
+  rotate: false
+  xy: 212, 2
+  size: 94, 154
+  orig: 94, 154
+  offset: 0, 0
+  index: 1
+running
+  rotate: false
+  xy: 308, 2
+  size: 94, 154
+  orig: 94, 154
+  offset: 0, 0
+  index: 2
+running
+  rotate: false
+  xy: 404, 2
+  size: 94, 154
+  orig: 94, 154
+  offset: 0, 0
+  index: 3
+running
+  rotate: false
+  xy: 500, 2
+  size: 94, 154
+  orig: 94, 154
+  offset: 0, 0
+  index: 4
