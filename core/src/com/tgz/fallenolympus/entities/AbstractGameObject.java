@@ -23,6 +23,8 @@ public abstract class AbstractGameObject {
     public Vector2 origin;
     // rotation is done in degree
     public float rotation;
+    // Bounds used in case of box shaped body
+    public Vector2 bounds;
 
     // sprite that's going to render
     public TextureRegion region;
@@ -34,6 +36,7 @@ public abstract class AbstractGameObject {
         rotation = 0;
         origin = new Vector2();
         position = new Vector2();
+        bounds = new Vector2();
     }
 
 

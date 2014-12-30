@@ -28,7 +28,7 @@ public class WorldRender implements Disposable{
 
 
     public WorldRender(WorldController worldController) {
-        tiledMap = new TmxMapLoader().load(Constants.TEST_MAP);
+        tiledMap = worldController.level.tiledMap;
         tmr = new OrthogonalTiledMapRenderer(tiledMap);
         cam = new OrthographicCamera(Constants.VIEWPORT_WIDTH,Constants.VIEWPORT_HEIGHT);
         cam.position.set(cam.viewportWidth / 2.0f,cam.viewportHeight / 2.0f, 0);

@@ -33,7 +33,7 @@ public class Player extends AbstractGameObject{
 
     public Player(World world) {
         super();
-        running = new Animation(0.02f, Assets.instance.player.running, Animation.PlayMode.LOOP);
+        running = new Animation(0.05f, Assets.instance.player.running, Animation.PlayMode.LOOP);
         preMelee = new Animation(0.15f, Assets.instance.player.preMelee, Animation.PlayMode.NORMAL);
         melee = new Animation(0.02f, Assets.instance.player.melee, Animation.PlayMode.LOOP);
         idle = new Animation(0.5f, Assets.instance.player.idle, Animation.PlayMode.LOOP_PINGPONG);
@@ -54,10 +54,10 @@ public class Player extends AbstractGameObject{
                 )
                 .angle(0.0f)
                 .position(100.0f / Box2DConstants.PPM, 100.0f / Box2DConstants.PPM)
-                .type(BodyDef.BodyType.StaticBody)
+                .type(BodyDef.BodyType.DynamicBody)
                 .build();
-
-        setCurrentAnimation(AnimationType.MELEE);
+        bounds.set(width * 2.0f * Box2DConstants.PPM, height * 2.0f * Box2DConstants.PPM);
+        setCurrentAnimation(AnimationType.RUNNING);
 
     }
 
@@ -93,11 +93,11 @@ public class Player extends AbstractGameObject{
     public void render(SpriteBatch batch) {
         TextureRegion reg = region;
         if (reg != null) {
-            batch.setColor(1.0f, 0.0f, 0.0f, 1.0f);
+            batch.setColor(1.0f, 1.0f, 1.0f, 1.0f);
             batch.begin();
             batch.draw(
                     reg,
-                    position.x - reg.getRegionWidth() / 2.0f, position.y - reg.getRegionHeight() / 2.0f
+                    position.x - reg.getRegionWidth() / 2.0f, position.y - bounds.y / 2.0f
             );
             batch.end();
             batch.setColor(0.0f, 0.0f, 0.0f, 1.0f);

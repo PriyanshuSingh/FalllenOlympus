@@ -15,7 +15,7 @@ public class AssetPlayer {
 
     public AssetPlayer(TextureAtlas atlas) {
         //TODO : Here more animation will load
-        running = atlas.findRegions("running");
+        running = atlas.findRegions("playerrun");
         idle = atlas.findRegions("idle");
         preMelee = atlas.findRegions("premelee");
         melee = atlas.findRegions("melee");

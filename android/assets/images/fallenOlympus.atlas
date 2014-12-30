@@ -1,82 +1,110 @@
 
 fallenOlympus.png
-size: 1024,256
+size: 512,512
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
 idle
   rotate: false
-  xy: 812, 2
+  xy: 189, 44
   size: 66, 154
   orig: 66, 154
   offset: 0, 0
   index: 1
 idle
   rotate: false
-  xy: 880, 2
+  xy: 257, 44
   size: 66, 154
   orig: 66, 154
   offset: 0, 0
   index: 2
 melee
   rotate: false
-  xy: 2, 2
+  xy: 95, 356
   size: 103, 154
   orig: 103, 154
   offset: 0, 0
   index: 1
 melee
   rotate: false
-  xy: 107, 2
+  xy: 200, 356
   size: 103, 154
   orig: 103, 154
   offset: 0, 0
   index: 2
+playerrun
+  rotate: false
+  xy: 2, 342
+  size: 91, 168
+  orig: 91, 168
+  offset: 0, 0
+  index: 1
+playerrun
+  rotate: false
+  xy: 2, 168
+  size: 87, 172
+  orig: 87, 172
+  offset: 0, 0
+  index: 3
+playerrun
+  rotate: false
+  xy: 91, 169
+  size: 87, 171
+  orig: 87, 171
+  offset: 0, 0
+  index: 2
+playerrun
+  rotate: false
+  xy: 98, 2
+  size: 89, 165
+  orig: 89, 165
+  offset: 0, 0
+  index: 4
 premelee
   rotate: false
-  xy: 596, 2
+  xy: 276, 200
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 1
 premelee
   rotate: false
-  xy: 668, 2
+  xy: 348, 200
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 2
 premelee
   rotate: false
-  xy: 740, 2
+  xy: 420, 200
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 3
 running
   rotate: false
-  xy: 212, 2
+  xy: 305, 356
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 1
 running
   rotate: false
-  xy: 308, 2
+  xy: 401, 356
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 2
 running
   rotate: false
-  xy: 404, 2
+  xy: 2, 12
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 3
 running
   rotate: false
-  xy: 500, 2
+  xy: 180, 200
   size: 94, 154
   orig: 94, 154
   offset: 0, 0

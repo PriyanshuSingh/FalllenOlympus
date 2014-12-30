@@ -48,7 +48,6 @@ public class PlayScreen extends AbstractGameScreen {
 
         worldController.update(delta);
         worldRender.render();
-
     }
 
     @Override
