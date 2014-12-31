@@ -14,7 +14,7 @@ public abstract class AbstractGameObject {
 
     // All entity in our game have body has box2D body for their movements and everything
 
-    Body body;
+    public Body body;
 
     public Vector2 position;
 

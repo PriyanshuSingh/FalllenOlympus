@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="40" height="20" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="tile_01" tilewidth="32" tileheight="32">
   <image source="tile_01.png" width="32" height="32"/>
  </tileset>
@@ -14,4 +14,9 @@
    eJxjYBgFo2AUjIJRMApGwSgYBdQEjIMcMwExM5QerBjdfcw43DxQ/mBmQHUTLvdR0x5yzEfXT013EmMeNjkAJq4BgQ==
   </data>
  </layer>
+ <objectgroup name="physics">
+  <object name="ground" x="8" y="488">
+   <polygon points="0,0 624,-22 1260,-4 1267,39 9,31"/>
+  </object>
+ </objectgroup>
 </map>

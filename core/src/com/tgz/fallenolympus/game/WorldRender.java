@@ -32,19 +32,19 @@ public class WorldRender implements Disposable{
         tmr = new OrthogonalTiledMapRenderer(tiledMap);
         cam = new OrthographicCamera(Constants.VIEWPORT_WIDTH,Constants.VIEWPORT_HEIGHT);
         cam.position.set(cam.viewportWidth / 2.0f,cam.viewportHeight / 2.0f, 0);
+        worldController.cameraHelper.init(cam);
         batch = new SpriteBatch();
         box2DDebugRenderer = new Box2DDebugRenderer();
         b2cam = new OrthographicCamera(Box2DConstants.BOX2D_VIEWPORT_WIDTH, Box2DConstants.BOX2D_VIEWPORT_HEIGHT);
         b2cam.position.set(b2cam.viewportWidth / 2.0f, b2cam.viewportHeight / 2.0f, 0);
         this.worldController = worldController;
-
     }
 
 
     public void render(){
         Gdx.gl.glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
-
+        worldController.cameraHelper.applyTo(cam);
         cam.update();
         b2cam.update();
         tmr.setView(cam);
