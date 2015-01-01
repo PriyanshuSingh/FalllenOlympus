@@ -1,110 +1,124 @@
 
 fallenOlympus.png
-size: 512,512
+size: 1024,512
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
 idle
   rotate: false
-  xy: 189, 44
-  size: 66, 154
-  orig: 66, 154
+  xy: 2, 2
+  size: 89, 184
+  orig: 89, 184
   offset: 0, 0
-  index: 1
+  index: 3
 idle
   rotate: false
-  xy: 257, 44
-  size: 66, 154
-  orig: 66, 154
+  xy: 95, 188
+  size: 89, 183
+  orig: 89, 183
   offset: 0, 0
   index: 2
-melee
+idle
   rotate: false
-  xy: 95, 356
-  size: 103, 154
-  orig: 103, 154
-  offset: 0, 0
-  index: 1
-melee
-  rotate: false
-  xy: 200, 356
-  size: 103, 154
-  orig: 103, 154
-  offset: 0, 0
-  index: 2
-playerrun
-  rotate: false
-  xy: 2, 342
-  size: 91, 168
-  orig: 91, 168
-  offset: 0, 0
-  index: 1
-playerrun
-  rotate: false
-  xy: 2, 168
-  size: 87, 172
-  orig: 87, 172
-  offset: 0, 0
-  index: 3
-playerrun
-  rotate: false
-  xy: 91, 169
-  size: 87, 171
-  orig: 87, 171
-  offset: 0, 0
-  index: 2
-playerrun
-  rotate: false
-  xy: 98, 2
-  size: 89, 165
-  orig: 89, 165
+  xy: 95, 188
+  size: 89, 183
+  orig: 89, 183
   offset: 0, 0
   index: 4
+idle
+  rotate: false
+  xy: 186, 189
+  size: 89, 182
+  orig: 89, 182
+  offset: 0, 0
+  index: 1
+melee
+  rotate: false
+  xy: 462, 217
+  size: 103, 154
+  orig: 103, 154
+  offset: 0, 0
+  index: 1
+melee
+  rotate: false
+  xy: 567, 217
+  size: 103, 154
+  orig: 103, 154
+  offset: 0, 0
+  index: 2
 premelee
   rotate: false
-  xy: 276, 200
+  xy: 282, 35
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 1
 premelee
   rotate: false
-  xy: 348, 200
+  xy: 354, 35
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 2
 premelee
   rotate: false
-  xy: 420, 200
+  xy: 426, 35
   size: 70, 154
   orig: 70, 154
   offset: 0, 0
   index: 3
+run
+  rotate: false
+  xy: 2, 188
+  size: 91, 183
+  orig: 91, 183
+  offset: 0, 0
+  index: 1
+run
+  rotate: false
+  xy: 93, 5
+  size: 91, 181
+  orig: 91, 181
+  offset: 0, 0
+  index: 4
+run
+  rotate: false
+  xy: 277, 191
+  size: 91, 180
+  orig: 91, 180
+  offset: 0, 0
+  index: 3
+run
+  rotate: false
+  xy: 370, 191
+  size: 90, 180
+  orig: 90, 180
+  offset: 0, 0
+  index: 2
 running
   rotate: false
-  xy: 305, 356
+  xy: 672, 217
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 1
 running
   rotate: false
-  xy: 401, 356
+  xy: 768, 217
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 2
 running
   rotate: false
-  xy: 2, 12
+  xy: 864, 217
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
   index: 3
 running
   rotate: false
-  xy: 180, 200
+  xy: 186, 33
   size: 94, 154
   orig: 94, 154
   offset: 0, 0
