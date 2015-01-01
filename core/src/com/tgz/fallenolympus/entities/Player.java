@@ -40,10 +40,14 @@ public class Player extends AbstractGameObject{
         melee = new Animation(0.02f, Assets.instance.player.melee, Animation.PlayMode.LOOP);
         idle = new Animation(0.5f, Assets.instance.player.idle, Animation.PlayMode.LOOP_PINGPONG);
 
-        scale.set(1.0f, 1.0f);
+        scale.set(0.75f, 0.75f);
 
         float height = scale.y * (idle.getKeyFrames()[0].getRegionHeight() / 2.0f / Box2DConstants.PPM);
         float width = scale.x * (idle.getKeyFrames()[0].getRegionWidth() / 2.0f / Box2DConstants.PPM);
+        float heightOffset = 5.0f / Box2DConstants.PPM;
+        float widthOffset = 5.0f / Box2DConstants.PPM;
+        height -= heightOffset;
+        width -= widthOffset;
         BodyBuilder bodyBuilder = new BodyBuilder(world);
         body = bodyBuilder.fixture(
                     bodyBuilder.fixtureDefBuilder()
@@ -56,6 +60,7 @@ public class Player extends AbstractGameObject{
                     .build()
                 )
                 .angle(0.0f)
+                .fixedRotation()
                 .position(200.0f / Box2DConstants.PPM, 300.0f / Box2DConstants.PPM)
                 .type(BodyDef.BodyType.DynamicBody)
                 .build();
@@ -64,7 +69,7 @@ public class Player extends AbstractGameObject{
 
 
         bounds.set(width * 2.0f * Box2DConstants.PPM, height * 2.0f * Box2DConstants.PPM);
-        setCurrentAnimation(AnimationType.RUNNING);
+        setCurrentAnimation(AnimationType.IDLE);
 
     }
 

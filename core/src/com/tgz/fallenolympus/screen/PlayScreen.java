@@ -24,7 +24,7 @@ public class PlayScreen extends AbstractGameScreen {
 
     @Override
     public InputProcessor getInputProcessor() {
-        return null;
+        return worldController;
     }
 
     @Override
@@ -43,7 +43,7 @@ public class PlayScreen extends AbstractGameScreen {
     @Override
     public void render(float delta) {
 
-        Gdx.gl.glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+        Gdx.gl.glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         worldController.update(delta);
