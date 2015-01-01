@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="45" tileheight="45">
+ <tileset firstgid="1" name="gbase" tilewidth="45" tileheight="45">
+  <image source="gbase.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="2" name="gover" tilewidth="45" tileheight="45">
+  <image source="gover.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="3" name="grass" tilewidth="45" tileheight="45">
+  <image source="grass.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="4" name="grasscr" tilewidth="45" tileheight="45">
+  <image source="grasscr.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="5" name="Untitled-5" tilewidth="45" tileheight="45">
+  <image source="Untitled-5.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="6" name="grassdec" tilewidth="45" tileheight="45">
+  <image source="grassdec.png" width="45" height="45"/>
+ </tileset>
+ <tileset firstgid="7" name="grassdec2" tilewidth="45" tileheight="45">
+  <image source="grassdec2.png" width="45" height="45"/>
+ </tileset>
+ <imagelayer name="Image Layer 1" width="50" height="50">
+  <image source="Untitled-6.png"/>
+ </imagelayer>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz0ERAAAIw7Dh3zQuxoPkrgKaAAAAAAAAAHBhivnw4cOHDx8+fHz4WFLqAUU=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzzENAAAMw7Cq/EEXxXbZUgAkAQAAAAAAAAD6mA8fPnz48OHjxgDKKAId
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztz8EJAEAIA8Eg13/NVuDXQ5iB/LMJAAAAAAAAAJP3+wBwWi1Ohw4dOnQkDZ60AX8=
+  </data>
+ </layer>
+ <layer name="grass" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztw4EFAAAMA7Cy/3/eF6UkJAEAAAAAAADYcsUAAOx4TXEAUg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzLEKACAIBcCW7P//uIYGkcYagjuQh6K2BgAAAAAAAPCXvip2jtLHno0yy7s5I92cEgCAu/rD3xN+sgCp
+  </data>
+ </layer>
+</map>
